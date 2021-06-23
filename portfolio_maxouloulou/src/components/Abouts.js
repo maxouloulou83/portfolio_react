@@ -6,7 +6,7 @@ export default function Abouts() {
         <div>
                 <div className="max-w-2xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
                     <h2 className="text-3xl font-extrabold text-gray-50 sm:text-4xl pb-4">
-                        <span className="block">About my</span>
+                        <span className="block">About me</span>
                     </h2>
                     <div className="py-10 px-6 bg-gray-200  text-center rounded-lg xl:px-10 xl:text-left">
                         <p className="mt-4 text-lg leading-6 text-black text-center">
