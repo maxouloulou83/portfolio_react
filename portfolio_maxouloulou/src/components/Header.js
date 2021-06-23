@@ -23,7 +23,7 @@ export default function Header() {
 
                                             .pauseFor(2000)
                                             .deleteAll()
-                                            .typeString("Welcome to my portfolio 2.0.")
+                                            .typeString("Welcome to my portfolio 2.0")
                                             .start();
                                     }}
                                 />
