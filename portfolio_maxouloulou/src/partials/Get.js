@@ -84,7 +84,9 @@ const Get = (props) => {
                                  link="https://github.com/maxouloulou83/maman_project"
                         />
 
-                        <GetCard img={Img6}/>
+                        <GetCard img={Img6}
+                                 link="https://github.com/maxouloulou83/my_quizz"
+                        />
 
                     </Slider>
                 </div>

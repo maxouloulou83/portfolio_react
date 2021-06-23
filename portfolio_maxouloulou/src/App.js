@@ -4,10 +4,11 @@ import Header from "./components/Header"
 import Index from "./components/Index";
 import Pers from "./components/Pers";
 import Get from "./partials/Get";
-
+import Abouts from "./components/Abouts";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         </div>
         <Pers />
         <Get />
+        <Abouts />
       </div>
 
   )

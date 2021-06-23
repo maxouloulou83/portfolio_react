@@ -4,34 +4,34 @@ import  cv from '../Asset/Maxence Joly.pdf'
 
 const tiers = [
     {
-        name: 'Mecanicien moto',
+        name: 'Motorcycle mechanics',
         href: '#',
         time: 3,
         date: '2014 - 2016',
         description: 'reception, diag, réparation',
         includedFeatures: [
-            'CAP mécanique option moto',
+            'CAP mechanical option motorcycle',
             'reception',
-            'diagnostique et réparation'
+            'diagnosis and repair'
         ],
     },
     {
-        name: 'Educateur sportif',
+        name: 'Sports Educator',
         href: '#',
         time: 4 ,
         date: '2016 - 2020',
         description: 'Animation sportif 3 - 99 an',
         includedFeatures: [
-            'responçable club ados ',
-            'animation sportif 3 - 99 an',
+            'responsible for teen club ',
+            'sports animation 3 - 99 years',
             'BPjeps APT',
-            'BAPAAT randonnée',
-            'BAPAAT tir à l\'arc',
-            'BAPAAT vtt'
+            'BAPAAT hiking',
+            'BAPAAT archery',
+            'BAPAAT mountain biking'
         ],
     },
     {
-        name: 'Developpeur web',
+        name: 'Web Developer',
         href: '#',
         time: '1',
         date: '2020 - 2022',
@@ -51,7 +51,7 @@ export default function Pers() {
             <div className="">
                 <div className="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8">
                     <div className="sm:flex sm:flex-col sm:align-center">
-                        <h1 className="text-5xl text-center font-extrabold text-gray-900 sm:text-center">Expérience professionnelle</h1>
+                        <h1 className="text-5xl text-center font-extrabold text-gray-900 sm:text-center">Professional experience</h1>
 
                     </div>
                     <div className="md:flex justify-center mt-12 space-y-4 md:space-x-8 sm:mt-16 sm:space-y-0 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 xl:grid-cols-4">
@@ -70,7 +70,7 @@ export default function Pers() {
                                     </a>
                                 </div>
                                 <div className="pt-6 pb-8 px-6">
-                                    <h3 className="text-xs font-medium text-gray-900 tracking-wide uppercase">Diplôme</h3>
+                                    <h3 className="text-xs font-medium text-gray-900 tracking-wide uppercase">Degree</h3>
                                     <ul className="mt-6 space-y-4">
                                         {tier.includedFeatures.map((feature) => (
                                             <li key={feature} className="flex space-x-3">
