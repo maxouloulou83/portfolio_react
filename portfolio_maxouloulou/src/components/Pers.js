@@ -51,7 +51,7 @@ export default function Pers() {
             <div className="">
                 <div className="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8">
                     <div className="sm:flex sm:flex-col sm:align-center">
-                        <h1 className="text-5xl text-center font-extrabold text-gray-900 sm:text-center">Professional experience</h1>
+                        <h1 className="text-5xl text-center font-extrabold text-gray-100 sm:text-center">Professional experience</h1>
 
                     </div>
                     <div className="md:flex justify-center mt-12 space-y-4 md:space-x-8 sm:mt-16 sm:space-y-0 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 xl:grid-cols-4">

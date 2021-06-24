@@ -14,7 +14,7 @@ const people = [
 export default function Index() {
 
     return (
-        <div className="bg-gradient-to-r from-gray-400 to-blue-300">
+        <div className="">
             <div className="mx-auto pb-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:pb-24">
                 <div className="">
                     <ul className=" flex justify-center w-full space-y-4">

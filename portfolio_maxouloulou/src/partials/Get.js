@@ -17,6 +17,7 @@ const Get = (props) => {
     const settings = {
         dots: false,
         infinite: true,
+        arrows: false,
         slidesToShow: 4,
         slidesToScroll: 1,
         centerMode: true,
@@ -54,9 +55,9 @@ const Get = (props) => {
     };
 
     return (
-        <div className="relative mx-auto mx-4 pt-12 z-50" id={id}>
+        <div className="pt-12" id={id}>
             <Fade>
-                <h1 className="text-gray-50 text-4xl text-center pb-8 pt-8">
+                <h1 className="text-5xl text-center font-extrabold text-gray-100 sm:text-center">
                     Projects
                 </h1>
             </Fade>

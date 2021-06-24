@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from "./components/Header"
+import Hero from "./partials/Hero"
 import Index from "./components/Index";
 import Pers from "./components/Pers";
 import Get from "./partials/Get";
@@ -13,10 +13,7 @@ import "slick-carousel/slick/slick-theme.css";
 function App() {
   return (
       <div className="bg-gradient-to-r from-gray-400 to-blue-300 h-full">
-        <div className="lg:h-screen">
-            <Header />
-            <Index />
-        </div>
+        <Hero />
         <Pers />
         <Get />
         <Abouts />
