@@ -58,7 +58,7 @@ const Get = (props) => {
         <div className="pt-12" id={id}>
             <Fade>
                 <h1 className="text-5xl text-center font-extrabold text-gray-100 sm:text-center">
-                    Projects
+                    Projets
                 </h1>
             </Fade>
             <Fade>

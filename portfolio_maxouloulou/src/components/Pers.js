@@ -4,30 +4,30 @@ import  cv from '../Asset/Maxence Joly.pdf'
 
 const tiers = [
     {
-        name: 'Motorcycle mechanics',
+        name: 'Mécanique moto',
         href: '#',
         time: 3,
         date: '2014 - 2016',
         description: 'reception, diag, réparation',
         includedFeatures: [
-            'CAP mechanical option motorcycle',
+            'CAP mécanique option moto',
             'reception',
-            'diagnosis and repair'
+            'diagnostique et réparation'
         ],
     },
     {
-        name: 'Sports Educator',
+        name: 'Educateur sportif',
         href: '#',
         time: 4 ,
         date: '2016 - 2020',
         description: 'Animation sportif 3 - 99 an',
         includedFeatures: [
-            'responsible for teen club ',
-            'sports animation 3 - 99 years',
+            'Responsable club ados',
+            'Annimation sportive 3-99 ans',
             'BPjeps APT',
-            'BAPAAT hiking',
-            'BAPAAT archery',
-            'BAPAAT mountain biking'
+            'BAPAAT randonnée',
+            'BAPAAT tir à l\'arc',
+            'BAPAAT VTT'
         ],
     },
     {
@@ -51,7 +51,7 @@ export default function Pers() {
             <div className="">
                 <div className="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8">
                     <div className="sm:flex sm:flex-col sm:align-center">
-                        <h1 className="text-5xl text-center font-extrabold text-gray-100 sm:text-center">Professional experience</h1>
+                        <h1 className="text-5xl text-center font-extrabold text-gray-100 sm:text-center">Expérience Professionnelle</h1>
 
                     </div>
                     <div className="md:flex justify-center mt-12 space-y-4 md:space-x-8 sm:mt-16 sm:space-y-0 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 xl:grid-cols-4">
@@ -70,7 +70,7 @@ export default function Pers() {
                                     </a>
                                 </div>
                                 <div className="pt-6 pb-8 px-6">
-                                    <h3 className="text-xs font-medium text-gray-900 tracking-wide uppercase">Degree</h3>
+                                    <h3 className="text-xs font-medium text-gray-900 tracking-wide uppercase">Acquis</h3>
                                     <ul className="mt-6 space-y-4">
                                         {tier.includedFeatures.map((feature) => (
                                             <li key={feature} className="flex space-x-3">
