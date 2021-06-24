@@ -26,7 +26,7 @@ export default function Index() {
                                          src={person.imageUrl} alt=""/>
                                     <div className="space-y-2 xl:flex xl:items-center xl:justify-between">
                                         <div className="font-medium text-lg  leading-6 space-y-1">
-                                            <h3 className="text-white">{person.name}</h3>
+                                            <h3 className="text-gray-500">{person.name}</h3>
                                             <p className="text-indigo-400">{person.role}</p>
                                         </div>
                                         <ul className="flex justify-center space-x-5">
