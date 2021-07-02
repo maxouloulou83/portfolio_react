@@ -6,7 +6,7 @@ const tiers = [
     {
         name: 'Mécanique moto',
         href: '#',
-        time: 3,
+        time: "3 ans",
         date: '2014 - 2016',
         description: 'reception, diag, réparation',
         includedFeatures: [
@@ -18,7 +18,7 @@ const tiers = [
     {
         name: 'Educateur sportif',
         href: '#',
-        time: 4 ,
+        time: "4 ans",
         date: '2016 - 2020',
         description: 'Animation sportif 3 - 99 an',
         includedFeatures: [
@@ -33,7 +33,7 @@ const tiers = [
     {
         name: 'Web Developer',
         href: '#',
-        time: '1',
+        time: '1 an',
         date: '2020 - 2022',
         description: 'Organisme de formation Epitech',
         includedFeatures: [
@@ -61,7 +61,7 @@ export default function Pers() {
                                     <h2 className="text-lg leading-6 font-medium text-gray-900">{tier.name}</h2>
                                     <p className="mt-4 text-sm text-gray-500">{tier.description}</p>
                                     <p className="mt-8">
-                                        <span className="text-4xl font-extrabold text-gray-900">{tier.time} ans</span>{' '}
+                                        <span className="text-4xl font-extrabold text-gray-900">{tier.time}</span>{' '}
                                     </p>
                                     <a
                                         className="mt-8 block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900"

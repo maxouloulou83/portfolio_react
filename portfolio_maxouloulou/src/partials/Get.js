@@ -70,7 +70,7 @@ const Get = (props) => {
 
 
                         <GetCard img={Img2}
-                                 link="https://github.com/EpitechIT2020/W-JSC-502-MAR-2-2-irc-maxence.joly"
+                                 link="https://github.com/maxouloulou83/My_irc"
                         />
 
                         <GetCard img={Img3}

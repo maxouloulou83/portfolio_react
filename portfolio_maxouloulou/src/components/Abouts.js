@@ -18,9 +18,9 @@ export default function Abouts() {
                             <p className="mt-2">
                                 Je suis actuellement en formation de développeur / intégrateur à la
                                 <a href="https://www.webacademie.org/"
-                                   className="font-semibold cursor-pointer">Web@Acédemie</a> par
+                                   className="font-semibold cursor-pointer">&nbsp;Web@Acédemie</a> par
                                 <a href="https://epitech.eu" className="font-semibold cursor-pointer">
-                                    Epitech
+                                    &nbsp;Epitech
                                 </a>.
                             </p>
                             <p className="mt-2">
