@@ -4,10 +4,12 @@ const people = [
     {
         name: 'Joly Maxence',
         role: 'Dev junior',
+        Mail:'maxence.joly@hotmail.com',
         imageUrl:
             'https://avatars.githubusercontent.com/u/74191557?v=4',
         gitUrl: 'https://github.com/maxouloulou83?tab=repositories',
         linkedinUrl: 'https://www.linkedin.com/in/maxence-joly-2b864a20a/',
+
     },
     // More people...
 ]
@@ -52,8 +54,24 @@ export default function Index() {
                                                     </svg>
                                                 </a>
                                             </li>
-                                        </ul>
+                                            <li>
+                                                <a target="_blank"
+                                                   href="mailto:maxence.joly@hotmail.com" className="text-gray-400 hover:text-gray-300">
+                                                    <span className="sr-only">Mail</span>
+                                                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z">
 
+                                                        </path>
+                                                        <path
+                                                            d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z">
+
+                                                        </path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </li>
