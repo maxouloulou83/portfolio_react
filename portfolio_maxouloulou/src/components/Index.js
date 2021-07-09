@@ -22,7 +22,7 @@ export default function Index() {
                     <ul className=" flex justify-center w-full space-y-4">
                         {people.map((person) => (
                             <li  key={person.name}
-                                className="py-10 px-6 bg-gray-200  text-center rounded-lg xl:px-10 xl:text-left">
+                                className="py-10 px-6 bg-gray-300  text-center rounded-lg xl:px-10 xl:text-left">
                                 <div className="space-y-6 xl:space-y-10">
                                     <img className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
                                          src={person.imageUrl} alt=""/>
